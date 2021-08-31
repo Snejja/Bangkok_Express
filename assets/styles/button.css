@@ -2,7 +2,7 @@
   height: 64px;
   padding: 19px 24px;
   background-color: var(--color-yellow);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: italic;
   font-weight: 600;
   font-size: 20px;
@@ -30,12 +30,12 @@
 }
 
 .button.is-loading:after {
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   margin-left: 12px;
   position: relative;
-  background: url(/assets/images/icons/loader-icon-sm.svg) center no-repeat;
+  background: url(../assets/images/icons/loader-icon-sm.svg) center no-repeat;
   background-size: cover;
   vertical-align: bottom;
   display: inline-block;
